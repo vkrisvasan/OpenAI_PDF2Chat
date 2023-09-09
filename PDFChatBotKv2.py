@@ -1,6 +1,9 @@
 #coded in PyCharm
 #.env file OPENAI_API_KEY="YOUR KEY"
 #run code using the command from command line / terminal "streamlit run PDFChatBotKv1.py"
+#The code creates a Streamlit web application that allows users to upload one or multiple PDF files.
+# Users can then ask questions related to the content of the uploaded PDFs, and the application will provide answers using OpenAI's model.
+#The response is displayed on the Streamlit interface, and the chat history is updated.
 import streamlit as st
 from PyPDF2 import PdfReader
 
